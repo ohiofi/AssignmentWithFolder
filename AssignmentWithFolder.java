@@ -98,7 +98,7 @@ public class AssignmentWithFolder{
 		  System.out.println(p);
 		  sum += p.getScore();
 	  }
-	  double average = (double) sum / (double) myarray.length;
+	  double average = Math.round((double) sum / (double) myarray.length);
 	  System.out.println("\nAverage compare score = "+average+"%");
     }
   }
